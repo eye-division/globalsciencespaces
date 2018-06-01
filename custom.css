@@ -1,10 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 /* *******************************************
-/* custom CSS for Genesis Framework child theme 
-* as per Chris Cree's instructions at 
+/* custom CSS for Genesis Framework child theme
+* as per Chris Cree's instructions at
 https://plus.google.com/+ChrisCree/posts/TcS6LZMWPTU
-and 
+and
 https://gist.github.com/ChrisCree/6389134
 * AW, Eye Division Ltd, a.ward@eyedivision.com
 * 1 February 2015
@@ -54,9 +54,9 @@ https://gist.github.com/ChrisCree/6389134
 		- max-width: 1023px
 		- max-width: 767px
 */
-/* 
- * COLOURS 
- Primary blue: 	#002642 rgb(0,38,66) 
+/*
+ * COLOURS
+ Primary blue: 	#002642 rgb(0,38,66)
  Light blue:	#39c2d7 rgb(57,194,215)		Singapore						gradient-lightblue
  Teal:			#24b99d rgb(36,185,157)		Silicon Valley, USA				gradient-teal
  Lime:			#b4d13b rgb(180,209,59)		Hsinchu, Taiwan					gradient-lime
@@ -67,7 +67,7 @@ https://gist.github.com/ChrisCree/6389134
 
 
  */
-/* 
+/*
  * FONTS - use Typekit not Google for this, replace Roboto Slab and remove Google Fonts load in functions.php
  */
 
@@ -262,7 +262,7 @@ h2, h3, h4, h5, h6 {
 h2 {
 	color: #24b99d;
 }
-.site-title, 
+.site-title,
 h1 {
 	font-family: 'bebas-neue', 'open-sans', sans-serif;
 }
@@ -300,15 +300,15 @@ strong {
 	color: #002642;
 }
 /*
- * HOME PAGE WRAP 
+ * HOME PAGE WRAP
  */
 
 .home .site-inner .wrap {
-	max-width: 100%;
+	/*max-width: 100%;*/
 }
 
-/* 
- * SITE HEADER 
+/*
+ * SITE HEADER
  */
 .site-header {
 	background-color: #002642;
@@ -325,8 +325,8 @@ strong {
 	padding-top: 0;
 }
 
-/* 
- * MENU 
+/*
+ * MENU
  */
 #responsive-menu-icon::before {
 	color: white;
@@ -347,18 +347,18 @@ strong {
 	border-color: #8092a0;
 	color: white;
 }
-.genesis-nav-menu .current-menu-item > a, 
+.genesis-nav-menu .current-menu-item > a,
 .genesis-nav-menu .current-menu-parent > a {
 	color: #24B99D;
 }
-.genesis-nav-menu a:hover, 
+.genesis-nav-menu a:hover,
 .genesis-nav-menu .sub-menu .current-menu-item > a:hover {
 	background-color: #24B99D;
 	color: white;
 }
 
 
-/* 
+/*
  * CUSTOM SECONDARY MENU - A WIDGET AREA IN FUNCTIONS.PHP
  */
 .gss-submenu {
@@ -407,7 +407,7 @@ strong {
 }
 .home .widget-title span {
   display: inline-block;
-  position: relative;  
+  position: relative;
 }
 .home .widget-title span:before,
 .home .widget-title span:after {
@@ -427,13 +427,13 @@ strong {
   margin-left: 15px;
 }
 /*
- * HOMEPAGE FEATURES 
+ * HOMEPAGE FEATURES
  */
  .home-top-wrap,
  .home-middle-upper,
  .home-middle-lower,
  .home-bottom {
- 	color: white;
+ 	color: #24b99d;
  	padding: 2em;
  	min-height: 400px;
 
@@ -445,14 +445,15 @@ strong {
  .home-middle-upper h4,
  .home-middle-lower h4,
  .home-bottom h4 {
- 	color: white;
+ 	color: #24b99d;
  	text-align: center;
  }
 .home .site-inner .textwidget {
 	text-align: center;
 }
 .home-top-wrap {
-	background-color: #24b99d;
+	background-color: #fff;
+	margin-top: 80px;
 }
 .home-top-wrap::after {
 	content: "";
@@ -466,7 +467,7 @@ strong {
 .home-middle-lower section,
 .home-bottom section {
 	max-width: 1140px;
- 	margin: 0 auto;	
+ 	margin: 0 auto;
 }
 .home-middle-upper {
 	/* dark blue Science Spaces */
@@ -485,7 +486,7 @@ strong {
 .home-middle-upper .gradient a:link,
 .home-middle-upper .gradient a:visited,
 .home-middle-lower a,
-.home-middle-lower a:link, 
+.home-middle-lower a:link,
 .home-middle-lower a:visited {
 	color: white;
 }
@@ -616,7 +617,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4ca6', end
 	/* horizontal lines on home page headers and gradients */
 	.gradient span {
 	  display: inline-block;
-	  position: relative;  
+	  position: relative;
 	}
 	.gradient span:after {
 	  content: "";
@@ -690,7 +691,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4ca6', end
 .home .featured-content .entry-title {
 	margin-bottom: 0;
 }
-.home .entry .entry-title a, 
+.home .entry .entry-title a,
 .home .entry .entry-header a,
 .home .entry-content a {
 	color: #24B99D;
@@ -734,7 +735,7 @@ tbody {
 	background-color: #f7941e;
 	color: white;
 }
-.hsinchu .entry-title, 
+.hsinchu .entry-title,
 .hsinchu h2,
 .hsinchu h3 {
 	color: #b4d13b;
@@ -761,7 +762,7 @@ tbody {
 	background-color: #39c2d7;
 	color: white;
 }
-.siliconvalley .entry-title, 
+.siliconvalley .entry-title,
 .siliconvalley h2,
 .siliconvalley h3 {
 	color: #24b99d;
@@ -781,8 +782,8 @@ tbody {
 	color: white;
 }
 
-/* 
- * FOOTER 
+/*
+ * FOOTER
  */
 
 .footer-widgets,
@@ -827,7 +828,7 @@ tbody {
 .home .gss-submenu {
 	padding-top: 0;
 }
- 
+
 .minimum .site-inner {
 	margin-top: 600px;
 }
@@ -836,8 +837,8 @@ tbody {
 }
 
 /* scrolling plugin */
-a.mPS2id-highlight { 
-	background: #fff; 
+a.mPS2id-highlight {
+	background: #fff;
 }
 
 
@@ -861,7 +862,7 @@ a.mPS2id-highlight {
 		margin-top: 0;
 		padding: 40px 5%;
 	}
- 
+
 	.minimum .site-inner {
 		margin-top: 400px;
 		padding: 20px 5%;
@@ -879,7 +880,7 @@ a.mPS2id-highlight {
 	}
 }
 @media only screen and (min-width: 768px) {
-	
+
 	.title-area {
 		width: 238px;
 	}
@@ -903,7 +904,7 @@ a.mPS2id-highlight {
 		text-align: center;
 		width: 33%;
 	}
-	
+
 }
 
 @media only screen and (min-width: 1024px) {
